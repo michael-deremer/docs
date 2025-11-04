@@ -15,6 +15,8 @@
 **RPE**: regional portfolio  
 **GPE**: global portfolio  
 **ODE**: on demand equivalent. list ode, actual on demand  
+**ETL**: extract, transform, load  
+
 
 # Aws specific:
 **CUR**: cost and usage report  
