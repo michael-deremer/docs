@@ -24,6 +24,7 @@
 # Google specific:
 **CUD**: committed use discount
 **FCUD**: flexible committed use discount (spend based)  
+**WAD**: weighted average duration
 
 # Azure specific:
 **ISF**: Instance size flexibility  
