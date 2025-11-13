@@ -22,7 +22,7 @@
 **CUR**: cost and usage report  
 
 # Google specific:
-**CUD**: committed use discount
+**CUD**: committed use discount  
 **FCUD**: flexible committed use discount (spend based)    
 **WAD**: weighted average duration  
 
