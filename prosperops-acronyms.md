@@ -16,6 +16,7 @@
 **GPE**: global portfolio  
 **ODE**: on demand equivalent. list ode, actual on demand  
 **ETL**: extract, transform, load  
+**SCAL**: spend cud adaptive laddering  
 
 
 # Aws specific:
