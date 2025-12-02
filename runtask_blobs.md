@@ -1,7 +1,8 @@
 # Runtask blobs
 
 ## RPE Build
-```{
+```
+{
   "state_machine_input": {
     "inner_task_name": "Gcp.ComputeRegionalPortfolioEvaluationsBuild",
     "customer_id": "<insert>",
@@ -9,10 +10,12 @@
       "gcp_billing_account_id": "<insert>"
     }
   }
-}```
+}
+```
 
 ## GPE Build
-```{
+```
+{
   "state_machine_input": {
     "dry_run": false,
     "customer_id": "<insert>",
@@ -21,10 +24,12 @@
       "gcp_billing_account_id": "<insert>"
     }
   }
-}```
+}
+```
 
 ## Google Seed purchases WI Generation
-```{
+```
+{
   "state_machine_input": {
     "inner_task_name": "Gcp.ResourceCommitSeedingWorkItems",
     "customer_id": "<insert>",
@@ -34,4 +39,5 @@
       "seed_start_date": "YYYY-MM-DD"
     }
   }
-}```
+}
+```
