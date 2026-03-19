@@ -1,0 +1,5 @@
+1) `docker-compose down`
+2) `docker-compose up`
+3) run core scripts `./reset-postgres` to wipe db clean
+4) ensure you've run `aws sso login`
+5) Import google data `dotnet run -- import --session-id <session id from meta cookies> customer -c <customerId> -g`
