@@ -2,5 +2,5 @@
 2) `docker-compose up`
 3) run core scripts `./reset-postgres` to wipe db clean
 4) ensure you've run `aws sso login`
-5) dd to core/src/ProsperOps.Setup
+5) cd to core/src/ProsperOps.Setup
 6) Import google data `dotnet run -- import --session-id <session id from meta cookies> customer -c <customerId> -g`
