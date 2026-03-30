@@ -1,0 +1,19 @@
+# Admin api debugging via cloudwatch logs
+  1) select admin-api-v2-prod log group
+  2) paste in query to find request ids
+
+``` fields @timestamp, @message
+| sort @timestamp desc
+| filter strcontains(RequestPath, 'gcp')
+| filter strcontains(RequestPath, 'preview')
+| stats count(*) by RequestId
+  ```
+
+3) Utilize the ids to target specific logs
+
+```
+  fields RequestMethod, RequestPath, Elapsed, StatusCode
+| sort @timestamp desc
+| filter RequestId = '0HNKEFFS72C8I:00000001' or RequestId = '0HNKEFG2FDTB3:00000003'
+| filter @@mt = 'HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms'
+```
