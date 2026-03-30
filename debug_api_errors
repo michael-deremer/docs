@@ -1,7 +1,14 @@
 # Admin api debugging via cloudwatch logs
+Path specific query:
+
+fields @timestamp, RequestMethod, RequestPath, Elapsed, StatusCode, @message
+| filter RequestPath = "/api/v1/gcp_committed_use_discount_actions/preview" 
+| filter @message like /HTTP/
+| sort @timestamp desc
+
+
   1) select admin-api-v2-prod log group
   2) paste in query to find request ids
-
 ``` fields @timestamp, @message
 | sort @timestamp desc
 | filter strcontains(RequestPath, 'gcp')
