@@ -17,7 +17,7 @@
 **ODE**: on demand equivalent. list ode, actual on demand  
 **ETL**: extract, transform, load  
 **SCAL**: spend cud adaptive laddering  
-
+**GSCE**: global spend coverage evaluation  
 
 # Aws specific:
 **CUR**: cost and usage report  
