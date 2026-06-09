@@ -24,6 +24,7 @@
 
 # Google specific:
 **CUD**: committed use discount  
+**SCUD** spend commit usage discount (interchangeable with fcud)  
 **FCUD**: flexible committed use discount (spend based)    
 **WAD**: weighted average duration  
 
