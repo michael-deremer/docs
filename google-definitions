@@ -1,3 +1,17 @@
+# Pricing export definitions
+
 cost_at_effective_price_default:
   * When applied to the Default consumption model its jut the cost of the usage at negotiated rates for that billing account
   * When applied to a non default consumption model id it corresponds directly to a flex/spend cud and it represents what that spend cud covered. Ie its a credit.
+
+
+
+
+
+
+# General Definitions
+on demand equivalent (ode): the price before any discounts are applied
+on demand: remaining usage after all discounts are applied that is not recieving any discount and is paid at ode rates.
+
+
+
