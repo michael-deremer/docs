@@ -9,7 +9,8 @@ spend commit coverage:
   * So for Default rows this just uses the cost
   * For spend commit rows you would use the cost_at_effective_price_default 
 
-
+GetBillingOnDemandEquivalent: the coverage amount the commit sits on with no discounts applied.
+  * So the sum of default row cost and the sum of any spend commit rows cost_at_effetive_price_default
 
 
 
