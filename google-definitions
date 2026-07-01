@@ -1,9 +1,13 @@
 # Pricing export definitions
 
 cost_at_effective_price_default:
-  * When applied to the Default consumption model its jut the cost of the usage at negotiated rates for that billing account
+  * When applied to the Default consumption model its jut the cost of the usage at negotiated rates for that billing account before discounts are applied
   * When applied to a non default consumption model id it corresponds directly to a flex/spend cud and it represents what that spend cud covered. Ie its a credit.
-
+  * for example if cost_at_effective_price_default = 10, cost = 6.50. The realized discount is $3.50
+spend commit coverage:
+  * Coverage is the whole on demand value of the usage
+  * So for Default rows this just uses the cost
+  * For spend commit rows you would use the cost_at_effective_price_default 
 
 
 
